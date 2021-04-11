@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Global Express Boot Camp' });
+  res.render('index', { title: 'Global Azure Boot Camp' });
 });
 
 module.exports = router;
